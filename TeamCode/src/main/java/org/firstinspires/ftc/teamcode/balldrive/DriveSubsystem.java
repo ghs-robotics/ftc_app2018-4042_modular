@@ -87,6 +87,7 @@ public class DriveSubsystem extends Subsystem {
         finalL = 0;
         finalR = 0;
         finalS = 0;
+        mode = Mode.MANUAL_XYR;
 
         timer = new ElapsedTime();
 

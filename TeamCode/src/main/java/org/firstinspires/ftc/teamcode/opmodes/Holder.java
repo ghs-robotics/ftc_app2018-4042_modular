@@ -1,7 +1,6 @@
 package org.firstinspires.ftc.teamcode.opmodes;
 
 import org.firstinspires.ftc.teamcode.balldrive.DriveSubsystem;
-import org.firstinspires.ftc.teamcode.balldrive.IntakeSubsystem;
 import org.firstinspires.ftc.teamcode.balldrive.LiftSubsystem;
 import org.firstinspires.ftc.teamcode.core.iobuiltin.RevGyro;
 import org.firstinspires.ftc.teamcode.core.structure.ClassHolder;
@@ -23,7 +22,6 @@ public class Holder extends ClassHolder {
 
         result.put("driveSubsystem", new DriveSubsystem(context));
         result.put("liftSubsystem", new LiftSubsystem(context));
-        result.put("intakeSubsystem", new IntakeSubsystem(context));
         return result;
     }
 
